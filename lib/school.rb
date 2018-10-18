@@ -16,7 +16,7 @@ class School
  end
 
  def sort()
-   new_roster = Hash.new
+   new_roster = {}
    @roster.each do |grade, student|
      new_roster[grade] = student.sort
    end
